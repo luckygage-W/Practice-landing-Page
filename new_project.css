@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    width:100%;
+    background:linear-gradient(130deg,#a48047,#d09f5b,#8B5E34);
+    background-size: cover;
+    background-attachment: fixed;
+    color:#1a1a1a;
+}
+/* .navigate a:hover{
+    background-color: #8B5E34;
+    color:#fff; */
+
+.navigate{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:px px;
+}
+.logo{
+    display:flex;
+    color:#fff;
+    font-size: 28px;
+    font-weight: bold;
+    padding-left: 60px;
+}
+ul{
+    display:flex;
+    color:#1a1a1a;
+    backdrop-filter: blur(6px);
+    border-bottom: 2px solid rgba(255,255,255,0.2);
+    font-size: 24px;
+    font-weight: 100;
+    border-radius: 8px;
+    padding:1px 20px;
+    min-height: auto;
+    margin-left: auto;
+    margin-right: 0;
+
+}
+li{
+    padding: 25px;
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color:#1a1a1a;
+
+}
+li:hover{
+    background:rgba(255,255,255,0.3);
+    border-radius: 8px;
+    
+
+}
+li:hover a{
+    color:#1a1a1a;
+}
+.head h1{
+    margin:0;
+    font-size: 48px;
+    color:#572907;
+    padding-top: 50px;
+    margin-left: 50px;
+    
+}
+.head p{
+    margin-top: 10px;
+    font-size: 20px;
+    padding-top: 5px;
+    margin-left: 50px;
+}
+.content{
+    padding: 50px;
+    justify-content: start;
+    align-items: center;
+    background: rgba(255,255,255,.35);
+    border-radius: 10px;
+    margin: 80px;
+    
+    
+}
+.content h2{
+    font-size: 28px;
+    margin-bottom: 10px;
+    color:#411f06;
+    padding-left: 50px;
+}
+.content p{
+    line-height: 1.6;
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+    
+.cards_used{
+    background: rgba(255,255,255,0.3);
+    padding: 20px;
+    margin:20px 50px;
+    border-radius: 10px;
+    backdrop-filter: blur(4px);
+}
+.head{
+    margin: 80px;
+    padding:30px;
+    border-radius: 10px;
+    background:rgba(255,255,255,.35);
+    backdrop-filter: blur(8px);
+    padding-bottom: 25px;
+    border:1px solid rgba(255,255,255,0.2);
+    
+}
+.Hero-img{
+    width: 300px;
+    height: auto;
+    border-radius: 12px;
+    object-fit: cover;
+}
+.text .head{
+    max-width: 50%;
+
+}
+.image{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(8px);
+    border-radius: 12px;
+    border: 1px solid rgba(255,255,255,.2);
+    width: 350px;
+    height:auto;
+    border-radius: 12px;
+    object-fit: cover;
+    filter: brightness(.9) contrast(1.1) saturate(0.9);
+    box-shadow: 0 4px 20px rgba(0,0,0,0,.25);
+
+}
+
